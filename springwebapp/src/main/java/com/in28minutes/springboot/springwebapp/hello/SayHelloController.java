@@ -29,11 +29,10 @@ public class SayHelloController {
         return buffer.toString();
     }
 
-    //sayHello.jsp
     //"say-hello-jsp" => sayHello.jsp
     //META-INF/resources/WEB-INF/jsp/sayHello.jsp
+    //src/main/resources/META-INF/resources/WEB-INF/jsp/sayHello.jsp
     @RequestMapping("say-hello-jsp")
-    @ResponseBody
     public String sayHelloJsp(){
         return "sayHello";
     }
